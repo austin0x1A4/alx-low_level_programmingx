@@ -1,0 +1,11 @@
+#!/bin/bash
+#!/bin/bash
+
+#!/bin/bash
+
+# Get the name of the C file from the $CFILE environment variable
+cfile="$CFILE"
+
+# Run the C file through the preprocessor and save the output to a file
+cpp "$cfile" > c
+
