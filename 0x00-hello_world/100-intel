@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Get the file name of the C code from the command line argument
+
+CFILE="$1"
+
+# Generate the assembly code using GCC and save it to a file with the same name
+# as the C code, but with the extension .s instead of .c
+
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.*}.s"
+
