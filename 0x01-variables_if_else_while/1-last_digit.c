@@ -1,15 +1,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-// main- Entry
-// Return: Always
+/*  main- Entry
+ * Return: Always
+ */
  
 int main(void) 
 {
     int n;
     int a;
 
-    srand(time(NULL));
+    srand(time(0));
     n = rand()- RAND_MAX / 2 ;
     a = n % 10;
 
