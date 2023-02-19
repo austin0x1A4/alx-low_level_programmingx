@@ -4,7 +4,6 @@
  *Main -A program that prints the size of various computer types
  *Return (0): Success
  */
-
 int main (void) 
 {
 printf("The size of a char is %ld bytes\n", sizeof(char));
