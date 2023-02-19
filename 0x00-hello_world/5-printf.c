@@ -5,7 +5,7 @@
  * with proper grammar to the console.
  */
 
-int main()
+int main(void)
 {
     /*
      * The main() function is the entry point of the program. It calls the printf()
@@ -14,5 +14,5 @@ int main()
      * successful program termination.
      */
 printf("%s\n", "with proper grammar, but the outcome is a piece of art,");
-return 0;
+return (0);
 }
