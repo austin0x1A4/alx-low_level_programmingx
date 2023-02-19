@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*
- * main- Entry
- * Return: Always
- * /
+// main- Entry
+// Return: Always
  
 int main(void) 
 {
