@@ -1,11 +1,13 @@
 #include <stdio.h>
-/* any headers go here */
 
 /**
- * main function - entry point
- * return: Always 0(success)
+ * main - Entry point
+ *
+ * Return: Always 0(success)
  */
+
 int main(void)
+/* Main function - outputs lowercase char */
 {
 char c;
 for (c = 'a'; c <= 'z'; ++c)
