@@ -3,6 +3,8 @@
 
 	/**
 	 * Main - prints all alphabet in lowercase
+	 *
+	 * print_alphabet - prints alphabets in lowercase
 	 */
 
 
