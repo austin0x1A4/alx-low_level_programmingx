@@ -4,8 +4,8 @@
 	/**
 	 * Main - prints all alphabet in lowercase
 	 *
-         * print_alphabet: prints the alphabet, in lowercase
-	 * followed by a new line.
+         * print_alphabet: this function prints the alphabet in lowercase
+	 * followed by a new line
          */
 	void print_alphabet(void)
 	{
